@@ -1,0 +1,99 @@
+img{
+	width: 500px;
+}
+
+body{
+	font-family: Playwrite Deutschland Grundschrift;
+	background: beige;
+	display: flex;
+	justify-content: center;
+	line-height: 1.6;
+	font-family: "Playwrite DE Grund", cursive;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("AdobeStock_352787587.jpeg");
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-size:  70px;
+	color: maroon;	
+}
+
+h2 {
+	font-size: 70px;
+	color: maroon;
+}
+
+p{
+	font-size: 50px;
+	text-align: left;
+}
+
+#characters {
+	font-size: 2.7em;
+	text-transform: uppercase;
+}
+
+#container {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 20px;
+		}
+
+#characters {
+  border-bottom: 1px solid;
+}
+
+#class
+
+#characters span {
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+#reg {
+  border-top: 8px solid;
+}
+#reg span {
+  width: 49px;
+  height: 49px;
+  line-height: 120px;
+  font-size: 2.7em;
+}
+
+#ital div, #bold div {
+  width: 600px;
+  height: 400px;
+  float: left;
+}
+
+#ital span, #bold span {
+  width: 30px;
+  height: 30px;
+  line-height: 180px;
+  font-size: 2.7em;
+}
+
+#ital { font-style: italic; }
+#bold { font-weight: bold; }
+#ital, #bold { border-top: 4px solid; }
+
+#bold_ital { border-top: 2px solid; }
+#bold_ital span {
+  width: 12px;
+  height: 70px;
+  font-size: 2.7em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+                          
